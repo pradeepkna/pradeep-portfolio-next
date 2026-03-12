@@ -49,7 +49,7 @@ const roles = [
 export default function Experience() {
   return (
     <section id="experience" className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4">Experience</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Experience</h2>
       <div className="space-y-4">
         {roles.map((r, i) => <ExperienceItem key={i} {...r} />)}
       </div>

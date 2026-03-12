@@ -47,15 +47,15 @@ const skillGroups = [
 export default function Skills() {
   return (
     <section id="skills" className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4">Skills</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Skills</h2>
       <div className="grid md:grid-cols-2 gap-4 text-sm">
         {skillGroups.map((group, i) => (
           <div
             key={i}
-            className={`bg-white border border-gray-200 rounded-md p-4 ${group.wide ? 'md:col-span-2' : ''}`}
+            className={`bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-md p-4 ${group.wide ? 'md:col-span-2' : ''}`}
           >
-            <h3 className="font-medium mb-2">{group.title}</h3>
-            <ul className="list-disc list-inside space-y-1">
+            <h3 className="font-medium mb-2 text-gray-900 dark:text-gray-100">{group.title}</h3>
+            <ul className="list-disc list-inside space-y-1 text-gray-900 dark:text-gray-100">
               {group.items.map((item, j) => <li key={j}>{item}</li>)}
             </ul>
           </div>

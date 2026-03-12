@@ -5,14 +5,14 @@ export default function Hero() {
         <img
           src="/photo.jpg"
           alt="Pradeep Narayan"
-          className="w-28 h-28 rounded-full object-cover border border-gray-200 flex-shrink-0"
+          className="w-28 h-28 rounded-full object-cover border border-gray-200 dark:border-gray-700 flex-shrink-0"
         />
         <div className="flex-1">
           <h1 className="text-3xl font-semibold">Pradeep Narayan</h1>
-          <p className="text-gray-600 text-sm mt-1">
+          <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">
             Technical Product Manager &amp; Product Owner · Cloud, Connected Car &amp; AI
           </p>
-          <p className="text-gray-500 text-sm mt-1">Ingolstadt, Germany</p>
+          <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">Ingolstadt, Germany</p>
           <div className="mt-3 flex flex-wrap gap-3 text-sm">
             <a href="mailto:pradeepkna@gmail.com" className="text-blue-600 hover:underline">pradeepkna@gmail.com</a>
             <span className="text-gray-400">·</span>
@@ -31,7 +31,7 @@ export default function Hero() {
           </a>
         </div>
       </header>
-      <p className="text-sm text-gray-700 max-w-2xl mt-4">
+      <p className="text-sm text-gray-700 dark:text-gray-300 max-w-2xl mt-4">
         Technical Product Manager with 10+ years of end-to-end ownership across connected car services,
         cloud-native platforms, and AI/ML applications. Open to Senior Product Owner / Technical PM roles
         in cloud, data, and AI-driven platforms.

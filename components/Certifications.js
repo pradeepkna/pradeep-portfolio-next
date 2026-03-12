@@ -16,15 +16,15 @@ const certs = [
 export default function Certifications() {
   return (
     <section id="certifications" className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4">Certifications</h2>
-      <div className="bg-white border border-gray-200 rounded-md p-4 text-sm">
+      <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Certifications</h2>
+      <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-md p-4 text-sm">
         <ul className="space-y-3">
           {certs.map((c, i) => (
             <li key={i}>
-              <span className="font-medium">{c.name}</span>
-              <span className="text-gray-500 ml-2">{c.year} · {c.issuer}</span>
+              <span className="font-medium text-gray-900 dark:text-gray-100">{c.name}</span>
+              <span className="text-gray-500 dark:text-gray-500 ml-2">{c.year} · {c.issuer}</span>
               {c.sub && (
-                <ul className="list-disc list-inside ml-4 mt-1 space-y-0.5 text-gray-700">
+                <ul className="list-disc list-inside ml-4 mt-1 space-y-0.5 text-gray-700 dark:text-gray-300">
                   {c.sub.map((s, j) => <li key={j}>{s}</li>)}
                 </ul>
               )}
