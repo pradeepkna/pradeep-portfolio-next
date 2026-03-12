@@ -8,7 +8,7 @@ export default function Hero() {
           className="w-28 h-28 rounded-full object-cover border border-gray-200 dark:border-gray-700 flex-shrink-0"
         />
         <div className="flex-1">
-          <h1 className="text-3xl font-semibold">Pradeep Narayan</h1>
+          <h1 className="text-3xl font-semibold text-gray-900 dark:text-gray-100">Pradeep Narayan</h1>
           <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">
             Technical Product Manager &amp; Product Owner · Cloud, Connected Car &amp; AI
           </p>

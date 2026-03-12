@@ -23,7 +23,7 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Projects</h2>
       <div className="space-y-4">
         {projects.map((p, i) => <ExperienceItem key={i} {...p} />)}
       </div>

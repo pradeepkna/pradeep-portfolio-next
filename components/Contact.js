@@ -25,7 +25,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4">Get in touch</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Get in touch</h2>
       <p className="text-sm text-gray-700 dark:text-gray-300 mb-6">
         I'm open to opportunities in product management, technical product ownership,
         and AI-driven platforms. Fill in the form below or reach out directly.
@@ -49,7 +49,7 @@ export default function Contact() {
             type="text"
             name="name"
             required
-            className="w-full border border-gray-200 dark:border-gray-700 rounded-md px-3 py-2 text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-200 dark:border-gray-700 rounded-md px-3 py-2 text-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Your name"
           />
         </div>
@@ -62,7 +62,7 @@ export default function Contact() {
             type="email"
             name="email"
             required
-            className="w-full border border-gray-200 dark:border-gray-700 rounded-md px-3 py-2 text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-200 dark:border-gray-700 rounded-md px-3 py-2 text-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="your@email.com"
           />
         </div>
@@ -75,7 +75,7 @@ export default function Contact() {
             name="message"
             required
             rows={4}
-            className="w-full border border-gray-200 dark:border-gray-700 rounded-md px-3 py-2 text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-200 dark:border-gray-700 rounded-md px-3 py-2 text-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Your message..."
           />
         </div>
